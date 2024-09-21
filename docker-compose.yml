@@ -1,4 +1,9 @@
 services:
+  frontend:
+    image: ghcr.io/kevinlhuillier/wodapp-front:latest
+    ports:
+      - "3000:80"
+
   server:
     image: ghcr.io/kevinlhuillier/wodapp-back:latest
     ports:

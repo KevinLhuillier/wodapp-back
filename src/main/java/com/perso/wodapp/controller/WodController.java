@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "http://57.129.42.227:3000"})
 @RestController
 @RequestMapping("/api/wods")
 public class WodController {
